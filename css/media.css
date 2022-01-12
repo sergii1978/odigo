@@ -1,0 +1,17 @@
+@media screen and (max-width: 1199.98px) and (min-width: 320px) {
+  .slider-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .review-img,.text-block {
+    margin: 0 auto;
+  }
+  
+  .review-img {
+    align-self: center;
+  }
+}
+
