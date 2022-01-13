@@ -1,55 +1,28 @@
 @font-face {
-    font-family: "Rubik";
-    src: local("Rubik"),
-         url('../fonts/rubik-semibold.woff2') format('woff2'),
-         url('../fonts/rubik-semibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: "Rubik";
-    src: local("Rubik"),
-         url('../fonts/rubik-medium.woff2') format('woff2'),
-         url('../fonts/rubik-medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: "Rubik";
-    src: local("Rubik"),
-         url('../fonts/rubik-regular.woff2') format('woff2'),
-         url('../fonts/rubik-regular.woff') format('woff');
+    font-family: "Lato", sans-serif;
+    src: local("Lato-Regular"),
+         url('../fonts/lato-regular.woff2') format('woff2'),
+         url('../fonts/lato-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-        font-family: "Rubik";
-        src: local("Rubik"),
-             url('../fonts/rubik-light.woff2') format('woff2'),
-             url('../fonts/rubik-light.woff') format('woff');
-        font-weight: 300;
-        font-style: normal;
+     font-family: "Lato", sans-serif;
+     src: local("Lato-Medium"),
+          url('../fonts/lato-medium.woff2') format('woff2'),
+          url('../fonts/lato-medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
 }
 
 @font-face {
-     font-family: "DMSans";
-     src: local("DMSans"),
-          url('dmsans-regular.woff2') format('woff2'),
-          url('dmsans-regular.woff') format('woff');
-     font-weight: 400;
+     font-family: "Lato", sans-serif;
+     src: local("Lato-Bold"),
+          url('../fonts/lato-bold.woff2') format('woff2'),
+          url('../fonts/lato-bold.woff') format('woff');
+     font-weight: 700;
      font-style: normal;
- }
+}
 
- @font-face {
-     font-family: "Nunito";
-     src: local("Nunito"),
-          url('nunito-regular.woff2') format('woff2'),
-          url('nunito-regular.woff') format('woff');
-     font-weight: 400;
-     font-style: normal;
- }
+
