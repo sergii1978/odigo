@@ -2,15 +2,11 @@ body{
   max-width: 1440px;
   margin: 0 auto;
   padding-top: 55px;
-  font-family: "Rubik", "DMSans", Arial, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   font‑display: swap;
   overflow-wrap: break-word;
-  color: #363853;
-  background-color: #E5E5E5;
-  background-image: url('../img/BG.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: #102746;
+  ;
 }
 
 * {
@@ -20,14 +16,12 @@ body{
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 55px;
-  background-color: #F8F9FD;
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 8px;
-  margin: 0 auto;
+  max-width: 1310px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .visually-hidden {
