@@ -1,16 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body{
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 55px;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font‑display: swap;
   overflow-wrap: break-word;
   color: #102746;
-  ;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .wrapper {
@@ -20,8 +22,18 @@ body{
 
 .container {
   max-width: 1310px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container__small {
+  max-width: 1080px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visually-hidden {
@@ -46,7 +58,12 @@ a {
 
 /* header */
 header {
-  margin-bottom: 100px;
+  padding-top: 56px;
+  background-color: #D8D8D8;
+  background-image:  linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%),
+  url('../img/header_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-nav {
@@ -54,23 +71,12 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 } 
-.logo-link {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 33px;
-  line-height: 39px;
-  color: #ff6838;
-}
-
-.logo-link span {
-  letter-spacing: 0.05em;
-  color: #363853;
-}
 
 .nav-list {
-  flex-basis: 445px;
+  flex-basis: 490px;
   display: flex;
   justify-content: space-between;
 }
@@ -78,7 +84,7 @@ header {
 .nav-link {
   display: block;
   position: relative;
-  font-family: "Rubik";
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
